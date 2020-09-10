@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'fatec-ipi-paoo-diretivas-personalizadas';
+  lembretes: Array <string> = [];
+  lembrete: string;
+  variavelSombra = "10px 10px green";
+
+  salvar (){
+    this.lembretes = [ ...this.lembretes, this.lembrete];
+    this.lembrete = "";
+  }
 }

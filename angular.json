@@ -24,7 +24,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.css"
             ],
             "scripts": []
           },
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "fatec-ipi-paoo-diretivas-personalizadas"
+    }
+  },
+  "defaultProject": "fatec-ipi-paoo-diretivas-personalizadas",
+  "cli": {
+    "analytics": "05e58d49-af2d-4880-8945-4f6a355d1cba"
+  }
 }
